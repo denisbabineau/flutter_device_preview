@@ -13,7 +13,10 @@ dependencies:
     sdk: flutter
   provider: ^4.3.2
   path_provider: ^1.6.18
-  device_frame: ^0.3.0
+  device_frame:
+    git:
+      url: https://github.com/denisbabineau/flutter_device_preview.git
+      path: device_frame  
   font_awesome_flutter: ^8.9.0
   http: ^0.12.2 
   freezed_annotation: ^0.12.0
